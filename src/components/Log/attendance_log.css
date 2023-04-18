@@ -1,0 +1,98 @@
+.container3{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.container3 .box4 h1{
+color: aliceblue;
+text-align: center;
+}
+
+.container3 .box4{
+position: relative;
+justify-content: center;
+/* background-color: grey; */
+top: 10%;
+width: 90%;
+margin-left: 5%;
+height:90%;
+}
+
+/* A_Table */
+
+.container3 .box4 table {
+  text-align: center; 
+  width: 100%;
+  height:50%;
+  color: black;
+  background-color:aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container3 .box4 table th {
+  text-align: center;
+  padding: 10px;
+  font-size: large;
+  border-color: 3px solid black;
+}
+
+.container3 .box4 table td {
+  text-align: center;
+  border: 3px solid black;
+
+}
+
+
+
+/* Cards */
+.a_users{
+  display: flex;
+  width: 100%;
+}
+
+.a_users .a_card{
+  width: 25%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.a_users .a_card img{
+  width: 70px;
+  height: 10px;
+  border-radius: 50%;
+}
+.a_users .a_card h4{
+  text-transform: uppercase;
+}
+.a_users .a_card p{
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.a_users table{
+  margin:  auto;
+
+}
+.a_users td{
+  font-size: 14px;
+  padding-right: 15px;
+}
+.a_users .a_card button{
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid black;
+}
+.a_users .a_card button:hover{
+  background: black;
+  color: #fff;
+  transition: 0.5s;
+}

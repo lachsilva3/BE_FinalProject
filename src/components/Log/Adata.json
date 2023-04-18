@@ -1,0 +1,13 @@
+[
+    {
+        "name":{
+            "test1":"hello"
+        },
+        "username":{
+            "test2":"hello"
+        },
+        "email":{
+            "test3":"hello"
+        }
+    }
+]
