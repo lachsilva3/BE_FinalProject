@@ -88,8 +88,7 @@ const loginApp =async(e)=> {
               <img className="img" alt="..." src={login} />
             </div>
             <div className="label">
-              <center><label id="login">Login</label></center>
-              
+              <label id="login">Login</label>
             </div>
             <div className="form-group mt-3">
               <label>Email</label>
